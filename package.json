@@ -1,0 +1,23 @@
+{
+  "name": "netcentric-escape-plan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.13.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "turbo": "^1.10.0"
+    }
+  }
+}
