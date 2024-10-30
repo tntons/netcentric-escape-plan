@@ -30,11 +30,11 @@ function Cell({
         disabled={!isMoveValid}
       >
         {getCellContent(cell)}
-        {isMoveValid && (
+        {/* {isMoveValid && (
           <div className="absolute inset-0 flex items-center justify-center bg-amber-400 bg-opacity-50">
-            {/* You can add an overlay icon or border here */}
+            You can add an overlay icon or border here
           </div>
-        )}
+        )} */}
       </button>
     </div>
   );
